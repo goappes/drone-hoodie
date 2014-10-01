@@ -1,0 +1,9 @@
+image: davidascher/fathoodie
+#services:
+#  - couchdb
+cache:
+  - .npm
+pre-script:
+  - npm -d install
+script:
+  - npm test
